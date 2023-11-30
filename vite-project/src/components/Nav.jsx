@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 
 function Nav() {
 
@@ -5,13 +7,15 @@ function Nav() {
     <header>
         
         <nav className="navbar">
-        <h1>Lernantino</h1>
-            <ol>
-                <li><a href="#about">About Me</a></li>
-                <li>Portfolio</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
-            </ol>
+        
+        <Link key={1} className="nav-link text-light" to="/">
+          Home
+        </Link>
+        <Link key={1} className="nav-link text-light" to="/portfolio">
+          Portfolio
+        </Link>
+
+
         </nav>
     </header>
     
