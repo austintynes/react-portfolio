@@ -3,7 +3,7 @@ function About() {
     return (
       <main id="about">
           <h1>About Me</h1>
-          <p></p>
+          <p>This is The About me Page</p>
       </main>
       
          

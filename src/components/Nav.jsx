@@ -14,6 +14,9 @@ function Nav() {
         <Link key={1} className="nav-link text-light" to="/portfolio">
           Portfolio
         </Link>
+        <Link key={1} className="nav-link text-light" to="/about">
+          About
+        </Link>
 
 
         </nav>
